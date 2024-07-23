@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #ffffff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(14, 185, 71, 0.1);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.search input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.hero {
+    background: #cf2727 url('assets/download\ \(1\).jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    background: #e67e22;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.services, .portfolio, .what-we-offer, .testimonials, footer {
+    padding: 50px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-item, .portfolio-item, .offer-item, .footer-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #6c45d8;
+    color: #fff;
+}
+
+footer a {
+    color: #e67e22;
+}
+.services {
+    background: rgb(56, 141, 211);
+    color: #ffffff;
+}
